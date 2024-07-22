@@ -11,6 +11,7 @@ console.log(`🔑 Loaded our keypair securely, using an env file! Our public key
 // Token Mints are accounts that define a specific token address that are created
 const tokenMintAddress = await createMint(connection, user, user.publicKey, user.publicKey, 9);
 // createMint(connection: Connection, payer: Signer, mintAuthority: PublicKey, freezeAuthority: PublicKey | null, decimals: number, keypair?: Keypair, confirmOptions?: ConfirmOptions, programId?: PublicKey): Promise<PublicKey>;
+// NOTE: if we use decimals as `0` then it is non-fungible token
 
 // payer - the public key of the payer for the transaction
 // mintAuthority - the account that is authorized to do the actual minting of tokens from the token mint.
