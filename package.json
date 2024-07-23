@@ -4,6 +4,7 @@
     "@metaplex-foundation/js": "^0.20.1",
     "@metaplex-foundation/mpl-token-metadata": "^2.13.0",
     "@solana-developers/helpers": "^2.3.0",
+    "@solana/spl-memo": "^0.2.5",
     "@solana/spl-token": "^0.4.8",
     "@solana/web3.js": "^1.95.0",
     "dotenv": "^16.4.5",
